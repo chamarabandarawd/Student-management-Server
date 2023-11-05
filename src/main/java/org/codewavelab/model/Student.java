@@ -1,18 +1,16 @@
 package org.codewavelab.model;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString
 public class Student {
     String firstName;
-    String LastName;
+    String lastName;
     String age;
     String contactNumber;
 }
